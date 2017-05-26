@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  margin-top:5%;
+  background: #FFF; 
+}
+
+body{padding-top:30px;}
+
+.glyphicon {  margin-bottom: 10px;margin-right: 10px;}
+
+small {
+display: block;
+line-height: 1.428571429;
+color: #000;
+}
+
+video { 
+    position: fixed;
+    left: 25%;
+    top: 40%;
+    min-width: 50%;
+    min-height: 50%;
+    width: 50%;
+    height: 50%;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  -webkit-transition: 1s opacity;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
+
+#reto { 
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight:100; 
+  background: rgba(0,0,0,0.3);
+  color: white;
+  padding: 2rem;
+  width: 45%;
+  margin:2rem;
+  position:fixed;
+  right:3%;
+  top:12%;
+  float: right;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  text-align: justify;
+  overflow: scroll;
+}
+h1 {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+#reto button { 
+  display: block;
+  width: 50%;
+  margin-left:25%;
+  padding: .4rem;
+  border: none; 
+  font-size: 1.4rem;
+  background: rgba(255,255,255,0.5);
+  color: #000;
+  border-radius: 3px; 
+  cursor: pointer;
+  -webkit-transition: .3s background;
+  transition: .3s background;
+}
+#reto button:hover { 
+   background: rgba(0,0,0,0.5);
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background:rgba(0,0,0,0.5);
+  padding: .5rem;
+  -webkit-transition: .6s background;
+  transition: .6s background; 
+}
+a:hover{
+  background:rgba(0,0,0,0.9);
+}
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+
+
